@@ -19,6 +19,7 @@ import HelpIcon from "../../../assets/images/help.svg";
 import LinkIcon from "../../../assets/images/link.svg";
 import LogoutIcon from "../../../assets/images/logoout.svg";
 import MainSmartLink from "../../../pages/smartLink/MainSmartLink";
+import Header from "../../header/Header";
 
 const drawerWidth = 270;
 const PrefMenu = [
@@ -123,9 +124,10 @@ function ResponsiveDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
+          {/* <Typography variant="h6" noWrap component="div">
             Responsive drawer
-          </Typography>
+          </Typography> */}
+          <Header />
         </Toolbar>
       </AppBar>
       <Box
